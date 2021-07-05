@@ -1,0 +1,82 @@
+.delete-icon {
+  cursor: pointer;
+}
+.delete-icon img {
+  width: 20px;
+  margin: 5px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form input[type=text] {
+  max-width: 500px;
+  background: #1E1E1E !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.list-input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.list-item {
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.list-item:last-child {
+  border-bottom: none !important;
+}
+
+body {
+  color: white;
+  background: #121212;
+}
+
+.list-container {
+  background: #1E1E1E;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 0 10px;
+  height: max-content;
+}
+
+.list-text {
+  text-align: left;
+}
+
+.dark-bg {
+  background: #1E1E1E;
+}
+
+.checklist-form {
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none !important;
+}
+
+#error-block {
+  color: red;
+  opacity: 0;
+  transition: 0.2s all ease;
+}
+#error-block.active {
+  opacity: 1;
+}
+
+
